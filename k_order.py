@@ -17,21 +17,21 @@ def fetch_data(url):
     while True:
         try:
             response = requests.get(url)
-            response.raise_for_status()  # 检查响应状态码，如果不是200会抛出异常
+            response.raise_for_status()  
             json_data = response.json()
-            return json_data  # 返回有效的 JSON 数据
+            return json_data  
         except requests.exceptions.HTTPError as e:
             print(f"HTTP Error: {e}")
-            # 可以根据具体情况处理 HTTP 错误，例如重新尝试请求等
-            time.sleep(1)  # 等待一段时间后再次请求
+           
+            time.sleep(1) 
         except requests.exceptions.JSONDecodeError as e:
             print(f"JSON Decode Error: {e}")
-            # JSON 解析错误，继续重新请求
-            time.sleep(1)  # 等待一段时间后再次请求
+          
+            time.sleep(1) 
         except requests.exceptions.RequestException as e:
             print(f"Request Exception: {e}")
-            # 其他请求异常，继续重新请求
-            time.sleep(1)  # 等待一段时间后再次请求
+
+            time.sleep(1) 
 
 
 def wei2ether(s):
@@ -168,7 +168,5 @@ def read_data(k, filename, b, e):
         print('------------------------------------')
 
 
-read_data(1, r'..\etherscan-downloaddata\data\account.txt', 0, 10)  # 后面两个参数是起始和结束的index
-# 18 0x4113c6ce4fb936d087e92a55d5b3bfdd275b1d3f_data
-# 0x24201ee770183993909cc6a701442c2a1f5adad5
-# 19 0x35810a676A84eC4Db68c0a9286f7a740FDA10b29
+read_data(1, r'..\etherscan-downloaddata\data\account.txt', 0, 10)  
+
