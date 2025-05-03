@@ -11,7 +11,6 @@ This repository contains a comprehensive transaction network dataset of Ethereum
 - **Seed nodes**: 7,057 verified phishing addresses (Layer 0)  
 - **1-hop neighbors**: Direct transaction counterparties (Layer 1)  
 - **2-hop neighbors**: Secondary transaction counterparties (Layer 2)  
-- **Temporal coverage**: Full transaction history until block height 18,500,000
 
 ### Data Schema
 Each address is stored as a CSV file containing the following fields:
