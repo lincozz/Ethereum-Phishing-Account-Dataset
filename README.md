@@ -49,9 +49,9 @@ Each address is stored as a CSV file containing the following fields:
 
 Three dataset variants are provided:
 
-1. [Phishing Accounts Full Records](https://drive.google.com/file/d/1p0j8Ex7CJAcaqrc6Zmfqv0MJhOtvxLex/view?usp=sharing) - Complete transaction history of seed phishing addresses  
-2. [2-hop Network (Truncated)](https://drive.google.com/file/d/1SBw_FM-FrhrDelNxgT7Q5B-zg_SxUzYj/view?usp=sharing) - First 100 transactions per 2-hop node  
-3. [2-hop Network (Unlimited)](https://drive.google.com/file/d/1qnauJQisZ_M776kpVq9ompflJP9r81Fz/view?usp=sharing) - Full transaction records without truncation
+1. [Phishing Accounts Full Records](https://www.dropbox.com/scl/fi/zs0u4gfpegen8rthulqgo/phi.rar?rlkey=vt5sb3005hvhorave5dhg794g&st=vdw88n73&dl=0) - Complete transaction history of seed phishing addresses  
+2. [2-hop Network (Truncated)](https://www.dropbox.com/scl/fi/b7w2ejvcz0a3616ypzar9/k_order.rar?rlkey=wml3eb01eiqpx3azcauvw3elk&st=fodu8mg7&dl=0) - First 100 transactions per 2-hop node  
+3. [2-hop Network (Unlimited)](https://www.dropbox.com/scl/fi/g7chl8hz0ey2c7qig4m17/all_len100.rar?rlkey=xi1u7hucjfntvs14mdbbpf28l&st=hmq27mg9&dl=0) - Full transaction records without truncation
 
 ## Repository Structure
 
